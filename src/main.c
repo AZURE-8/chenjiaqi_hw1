@@ -3,7 +3,6 @@
 
 int main()
 {
-    // 主函数，程序的入口点
     while (1)
     {
         char op;
@@ -12,7 +11,6 @@ int main()
         {
             case '+':
             {
-                // 处理矩阵加法操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -38,7 +36,6 @@ int main()
             }
             case '-':
             {
-                // 处理矩阵减法操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -65,7 +62,6 @@ int main()
             }
             case '*':
             {
-                // 处理矩阵乘法操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -91,7 +87,6 @@ int main()
             }
             case '.':
             {
-                // 处理矩阵缩放操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -108,7 +103,6 @@ int main()
             }
             case 't':
             {
-                // 处理矩阵转置操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -125,7 +119,6 @@ int main()
             }
             case 'd':
             {
-                // 处理矩阵行列式计算操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -142,7 +135,6 @@ int main()
             }
             case 'i':
             {
-                // 处理矩阵求逆操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -159,7 +151,6 @@ int main()
             }
             case 'r':
             {
-                // 处理矩阵秩计算操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -176,7 +167,6 @@ int main()
             }
             case 'j':
             {
-                // 处理矩阵迹计算操作
                 int rows, cols;
                 scanf("%d %d", &rows, &cols);
                 Matrix a = create_matrix(rows, cols);
@@ -193,12 +183,10 @@ int main()
             }
             case 'q':
             {
-                // 退出程序
                 return 0;
             }
             default:
             {
-                // 忽略无效操作
                 continue;
             }
         }
