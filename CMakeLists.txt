@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(chenjiaqi_hw1)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+aux_source_directory(src SRC_LIST)
+include_directories(inc)
+add_executable(main ${SRC_LIST})
