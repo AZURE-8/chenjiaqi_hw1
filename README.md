@@ -77,5 +77,5 @@ Error: Matrix a and b must have the same rows and cols.
 2.高斯消元法只用到一个n^2的计算，不用多算很多次余子式，直接得到变换过的矩阵。
 
 ## 运行成功截图
- !(https://github.com/ !(https://github.com/C:\Users\HUAWEI\Pictures\Screenshots\屏幕截图 2024-07-06 231837.png?raw=true)
+!(https://github.com/AZURE-8/chenjiaqi_hw1/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-06%20231837.png?raw=true)
 
