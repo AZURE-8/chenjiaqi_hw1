@@ -75,3 +75,7 @@ Error: Matrix a and b must have the same rows and cols.
 ## 备选实现思路
 1.在某些情况下，可以用高斯消元法求解线性方程组。
 2.高斯消元法只用到一个n^2的计算，不用多算很多次余子式，直接得到变换过的矩阵。
+
+## 运行成功截图
+ !(https://github.com/ !(https://github.com/C:\Users\HUAWEI\Pictures\Screenshots\屏幕截图 2024-07-06 231837.png?raw=true)
+
