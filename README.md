@@ -78,4 +78,5 @@ Error: Matrix a and b must have the same rows and cols.
 
 ## 运行成功截图
 ![](https://github.com/AZURE-8/chenjiaqi_hw1/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-06%20231837.png?raw=true)
+![](https://github.com/AZURE-8/chenjiaqi_hw1/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-06%20231847.png?raw=true)
 
